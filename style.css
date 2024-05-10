@@ -1,7 +1,5 @@
 
 .container {
-  background-color: antiquewhite;
-  border: 1px solid black;
   padding: 10px 100px;
   display: grid;
   grid-gap: 15px;
@@ -11,6 +9,7 @@
 }
 
 
+/* css for the blocks */
 .item1 {
   background-color: rgb(11, 161, 144);
   grid-column: 1 / 2;
@@ -35,12 +34,15 @@
   grid-row: 2 / 5;
 }
 
+/* css for the green line */
 .item5 {
   background-color: rgb(174, 220, 74);
   grid-column: 1 / 5;
   grid-row: 5 / 6;
 }
 
+
+/* css for circles */
 .circle1 {
   background-color: rgb(222, 132, 145);
   border-radius: 50%;
@@ -100,4 +102,31 @@
   position: absolute;
   top: 31%;
   left:32.5%;
+}
+
+/* css for the triangles */
+.large-triangle {
+  height: 0;
+  width: 0;
+
+  border-left: 11rem solid transparent;
+  border-right: 11rem solid transparent;
+  border-bottom: 25rem solid green;
+
+  position: absolute;
+  top: 24.3%;
+  left: 50.5%;
+}
+
+.small-triangle {
+  height: 0;
+  width: 0;
+
+  border-left: 10rem solid transparent;
+  border-right: 10rem solid transparent;
+  border-bottom: 18rem solid rgb(187, 216, 70);
+
+  position: absolute;
+  top: 42.4%;
+  left: 66.5%;
 }

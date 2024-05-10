@@ -2,85 +2,102 @@
 .container {
   background-color: antiquewhite;
   border: 1px solid black;
-  padding: 50px;
+  padding: 10px 100px;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 130px 130px 130px 25px;
+
 }
 
 
 .item1 {
   background-color: rgb(11, 161, 144);
-  grid-column: 1 / 7;
-  grid-row: 1 / 5;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
 .item2 {
   background-color: rgb(11, 161, 144);
-  grid-column: 7 / 13;
-  grid-row: 1 / 5;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 
 .item3 {
   background-color: rgb(11, 161, 144);
-  grid-column: 13 / 19;
-  grid-row: 1 / 5;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
 }
 
 .item4 {
   background-color: rgb(11, 161, 144);
-  grid-column: 1 / 19;
-  grid-row: 5 / 13;
+  grid-column: 1 / 5;
+  grid-row: 2 / 5;
 }
 
 .item5 {
   background-color: rgb(174, 220, 74);
-  grid-column: 1 / 19;
-  grid-row: 13 / 14;
+  grid-column: 1 / 5;
+  grid-row: 5 / 6;
 }
 
-.item6 {
-  background-color: pink;
+.circle1 {
+  background-color: rgb(222, 132, 145);
   border-radius: 50%;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  
-  z-index: index;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 16%;
+  left: 15%;
 }
 
-.item7 {
+.circle2 {
   background-color: rgb(234, 211, 94);
   border-radius: 50%;
-  grid-column: 4 / 6;
-  grid-row: 2 / 4;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 19%;
+  left: 26%;
 }
 
-.item8 {
-  background-color: pink;
+.circle3 {
+  background-color: rgb(222, 132, 145);
   border-radius: 50%;
-  grid-column: 8 / 9;
-  grid-row: 2 / 3;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 18%;
+  left: 40%;
 }
 
-.item9 {
-  background-color: pink;
+.circle4 {
+  background-color: rgb(222, 132, 145);
   border-radius: 50%;
-  grid-column: 2 / 3;
-  grid-row: 4 / 5;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 31%;
+  left:15%;
 }
 
-.item10 { 
+.circle5 { 
   background-color: rgb(234, 211, 94);
   border-radius: 50%;
-  grid-column: 4 / 5;
-  grid-row: 6 / 7;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 45%;
+  left: 25%;
 
 }
 
-.item11 {
-  background-color: pink;
+.circle6 {
+  background-color: rgb(222, 132, 145);
   border-radius: 50%;
-  grid-column: 6 / 8;
-  grid-row: 4 / 6;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 31%;
+  left:32.5%;
 }
